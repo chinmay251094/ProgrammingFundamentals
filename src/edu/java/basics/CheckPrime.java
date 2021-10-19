@@ -3,7 +3,7 @@ package edu.java.basics;
 public class CheckPrime {
 
 	public static void main(String[] args) {
-		System.out.println(CheckPrime.checkForPrime(45236987));
+		System.out.println(CheckPrime.checkForPrime(73));
 	}
 
 	public static boolean checkForPrime(int n) 
