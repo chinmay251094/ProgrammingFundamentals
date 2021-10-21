@@ -2,13 +2,14 @@ package edu.java.basics;
 
 public class ReverseNumber {
 	public static void main(String[] args) {
-		ReverseNumber.flipDigits(1234);
+		ReverseNumber.flipDigits(123456);
 	}
 	
 	static void flipDigits(int n)
 	{
 		int rem = 0;
 		int rev = 0;
+		
 		while(n > 0)
 		{
 			rem = n % 10;
